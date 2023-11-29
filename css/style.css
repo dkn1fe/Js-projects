@@ -1,1 +1,112 @@
+html {
+  width: 100%;
+  height: 100%;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #708090;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-block {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container {
+  padding: 30px 45px;
+}
+
+.block-title {
+  font-size: 38px;
+  color: #3e464e;
+}
+.block-subtitle p {
+  font-size: 18px;
+  color: #24292e;
+}
+.block-checkbox-text .checkbox {
+  display: flex;
+  margin-top: -15px;
+  gap: 10px;
+}
+.block-email p {
+  color: #24292e;
+}
+.block-email input {
+  padding: 15px 20px;
+  width: 250px;
+  border-radius: 3px;
+}
+.block-button {
+  margin-top: 20px;
+}
+.block-button button {
+  padding: 15px 57px;
+  background-color: rgb(8, 8, 134);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.block-text-email {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.text {
+  opacity: 0;
+}
+
+.red {
+  background-color: red;
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+.active {
+  color: red;
+  opacity: 1;
+}
+
+.success-block {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 25px;
+}
+.success-container {
+  padding: 15px 50px;
+}
+.success-checkbox {
+  margin-left: -15px;
+}
+.success-title {
+  margin-top: -15px;
+}
+.success-title p {
+  font-size: 42px;
+  font-weight: bold;
+  color: #3e464e;
+}
+.success-subtitle {
+  margin-top: -15px;
+}
+.success-button button {
+  padding: 15px 80px;
+  border: none;
+  background-color: rgb(8, 8, 134);
+  border-radius: 5px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

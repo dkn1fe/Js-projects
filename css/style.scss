@@ -1,0 +1,120 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:#708090;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+}
+.container{
+    padding:30px 45px;
+}
+.block{
+    &-title{
+        font-size: 38px;
+        color:#3e464e;
+    }
+    &-subtitle{
+        p{
+            font-size: 18px;
+            color:#24292e
+        }
+    }
+    &-checkbox-text{
+        .checkbox{
+            display:flex;
+            margin-top:-15px;
+            gap:10px;
+        }
+    }
+    &-email{
+        p{
+            color:#24292e;
+        }
+        input{
+            padding:15px 20px;
+            width:250px;
+            border-radius: 3px;
+        }
+    }
+    &-button{
+        margin-top:20px;
+        button{
+            padding:15px 57px;
+            background-color:rgb(8, 8, 134);
+            color:white;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+    &-text-email{
+        display: flex;
+        align-items: center;
+        gap:60px;
+    }
+}
+
+.text{
+    opacity:0;
+}
+
+.red{
+    background-color: red;
+    opacity:0.5;
+}
+
+.hide{
+    display: none;
+}
+.active{
+    color:red;
+    opacity: 1;
+}
+
+.success{
+   &-block{
+     width:400px;
+     height: 400px;
+     background-color: white;;
+     border-radius:25px;
+   }
+   &-container{
+     padding:15px 50px;
+   }
+   &-checkbox{
+     margin-left:-15px;
+   }
+   &-title{
+    margin-top:-15px;
+     p{
+        font-size: 42px;
+        font-weight: bold;
+        color:#3e464e
+     }
+   }
+   &-subtitle{
+    margin-top:-15px;
+   }
+   &-button{
+      button{
+        padding:15px 80px;
+        border: none;
+        background-color: rgb(8, 8, 134);
+        border-radius: 5px;
+        color:white;
+      }
+   }
+}
